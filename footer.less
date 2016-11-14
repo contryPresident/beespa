@@ -1,0 +1,80 @@
+.footer{
+	width: 100%;
+	height: 1.5625rem;
+	background-color: rgba(246, 246, 246, .85);
+
+	 position: fixed;
+    z-index: 99;
+    bottom:0;
+    left:0;
+	ul{
+		width: 100%;
+		display: flex;
+		justify-content:flex-start;
+		align-items:flext-start;
+		li{
+			padding-top:0.203125rem;
+			width: 20%;
+			text-align: center;
+			// display: flex;
+			// justify-content:center;
+			// align-items:center;
+			a{
+				display: block;
+				width: 0.578125rem;
+				width: 100%;
+			// 37px
+				height: 0.625rem;
+				// 40px
+				color:#7b7a7b;
+				font-size: 0.359375rem;
+
+			}
+			&:first-of-type{
+				a:first-of-type{
+					background:url('./img/footer1.png');
+					background-color: red;
+				}
+			}
+			&:nth-of-type(2){
+				a:first-of-type{
+					background:url('./img/footer2.png');
+					background-color: red;
+				}
+			}
+			&:first-of-type(3){
+				a:first-of-type{
+					background:url('./img/footer3.png');
+					background-color: red;
+				}
+			}
+			&:first-of-type(4){
+				position: relative;
+				a:first-of-type{
+					background:url('./img/footer4.png');
+					background-color: red;
+				}
+			}
+			&:first-of-type(5){
+				a:first-of-type{
+					background:url('./img/footer5.png');
+					background-color: red;
+				}
+			}
+			span.carNumber{
+
+				width: 0.5625rem;
+				height: 0.5625rem;
+				border-radius: 50%;
+				position: absolute;
+				top:0.2rem;
+				// right: 0;
+				background-color: #ff4400;
+				color: white;
+				text-align: center;
+				line-height: 0.5625rem;
+				font-size: 0.4125rem;
+			}
+		}
+	}
+}
